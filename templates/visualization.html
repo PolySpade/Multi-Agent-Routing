@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MAS-FRO Visualizations</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <span class="navbar-brand">MAS-FRO Visualizations</span>
+            <a href="/" class="btn btn-outline-light">Back to Dashboard</a>
+        </div>
+    </nav>
+    
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Route Computation Performance</h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="performance-histogram"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Safety Score Distribution</h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="safety-distribution"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>System Performance Over Time</h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="time-series"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function loadVisualizationData() {
+            fetch('/api/visualization_data')
+                .then(response => response.json())
+                .then(data => {
+                    createPerformanceHistogram(data.computation_times);
+                    createSafetyDistribution(data.safety_scores);
+                    createTimeSeries(data.time_series);
+                });
+        }
+        
+        function createPerformanceHistogram(data) {
+            var trace = {
+                x: data,
+                type: 'histogram',
+                nbinsx: 20,
+                marker: {color: 'blue', opacity: 0.7}
+            };
+            
+            Plotly.newPlot('performance-histogram', [trace], {
+                title: 'Route Computation Time Distribution',
+                xaxis: {title: 'Computation Time (seconds)'},
+                yaxis: {title: 'Frequency'}
+            });
+        }
+        
+        function createSafetyDistribution(data) {
+            var trace = {
+                x: data,
+                type: 'histogram',
+                nbinsx: 20,
+                marker: {color: 'green', opacity: 0.7}
+            };
+            
+            Plotly.newPlot('safety-distribution', [trace], {
+                title: 'Route Safety Score Distribution',
+                xaxis: {title: 'Safety Score (0-1)'},
+                yaxis: {title: 'Frequency'}
+            });
+        }
+        
+        function createTimeSeries(data) {
+            var traces = [];
+            
+            if (data.success_rate) {
+                traces.push({
+                    x: data.timestamps,
+                    y: data.success_rate,
+                    name: 'Success Rate',
+                    yaxis: 'y'
+                });
+            }
+            
+            if (data.avg_computation_time) {
+                traces.push({
+                    x: data.timestamps,
+                    y: data.avg_computation_time,
+                    name: 'Avg Computation Time',
+                    yaxis: 'y2'
+                });
+            }
+            
+            var layout = {
+                title: 'System Performance Metrics Over Time',
+                xaxis: {title: 'Time'},
+                yaxis: {
+                    title: 'Success Rate',
+                    side: 'left'
+                },
+                yaxis2: {
+                    title: 'Computation Time (s)',
+                    side: 'right',
+                    overlaying: 'y'
+                }
+            };
+            
+            Plotly.newPlot('time-series', traces, layout);
+        }
+        
+        // Load data on page load
+        loadVisualizationData();
+        
+        // Refresh every 30 seconds
+        setInterval(loadVisualizationData, 30000);
+    </script>
+</body>
+</html>
+        

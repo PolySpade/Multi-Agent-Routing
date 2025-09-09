@@ -1,0 +1,14 @@
+2025-09-09 23:55:10,434 - src.environment.dynamic_graph - INFO - Loading road network for Marikina, Philippines
+2025-09-09 23:55:12,606 - src.environment.dynamic_graph - INFO - Loaded 2491 nodes and 6644 edges
+2025-09-09 23:55:15,113 - src.agents.advanced_hazard_agent - INFO - AdvancedHazardAgent-1: ML models initialized successfully
+2025-09-09 23:55:15,116 - src.agents.advanced_hazard_agent - INFO - Starting Enhanced MAS-FRO simulation...
+2025-09-09 23:55:15,116 - src.agents.advanced_hazard_agent - INFO - Running enhanced simulation for 15 seconds...
+2025-09-09 23:55:15,117 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:55:15,118 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-09 23:55:15,119 - src.agents.advanced_hazard_agent - INFO - === ENHANCED MAS-FRO PERFORMANCE REPORT ===
+2025-09-09 23:55:15,119 - src.agents.advanced_hazard_agent - INFO - Total Requests: 0
+2025-09-09 23:55:15,119 - src.agents.advanced_hazard_agent - INFO - Success Rate: 0.00%
+2025-09-09 23:55:15,119 - src.agents.advanced_hazard_agent - INFO - Avg Computation Time: 0.000s
+2025-09-09 23:55:15,119 - src.agents.advanced_hazard_agent - INFO - P95 Computation Time: 0.000s
+2025-09-09 23:55:15,119 - src.agents.advanced_hazard_agent - INFO - Avg Safety Score: 0.000
+2025-09-09 23:55:15,120 - src.agents.advanced_hazard_agent - INFO - Detailed metrics saved to: results/metrics/enhanced_simulation_20250909_235515.json

@@ -1,0 +1,23 @@
+2025-09-10 00:04:08,006 - src.environment.dynamic_graph - INFO - Loading road network for Marikina, Philippines
+2025-09-10 00:04:10,247 - src.environment.dynamic_graph - INFO - Loaded 2491 nodes and 6644 edges
+2025-09-10 00:04:12,207 - src.agents.advanced_hazard_agent - INFO - AdvancedHazardAgent-1: ML models initialized successfully
+2025-09-10 00:04:12,207 - src.agents.advanced_hazard_agent - INFO - AdvancedHazardAgent-1: Starting bootstrap training...
+2025-09-10 00:04:12,207 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1: Bootstrap training failed: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-10 00:04:12,208 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1: Traceback: Traceback (most recent call last):
+  File "C:\Users\minem\OneDrive\Documents\School\THESIS\multi-agent-routing\src\agents\advanced_hazard_agent.py", line 376, in _initialize_bootstrap_training
+    if not self.flood_predictor:
+  File "C:\Users\minem\OneDrive\Documents\School\THESIS\multi-agent-routing\.venv\lib\site-packages\sklearn\ensemble\_base.py", line 154, in __len__
+    return len(self.estimators_)
+AttributeError: 'RandomForestRegressor' object has no attribute 'estimators_'
+
+2025-09-10 00:04:12,221 - src.agents.advanced_hazard_agent - INFO - Starting Enhanced MAS-FRO simulation...
+2025-09-10 00:04:12,221 - src.agents.advanced_hazard_agent - INFO - Running enhanced simulation for 5 seconds...
+2025-09-10 00:04:12,222 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-10 00:04:12,222 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 4 crowdsourced reports
+2025-09-10 00:04:12,223 - src.agents.advanced_hazard_agent - INFO - === ENHANCED MAS-FRO PERFORMANCE REPORT ===
+2025-09-10 00:04:12,223 - src.agents.advanced_hazard_agent - INFO - Total Requests: 0
+2025-09-10 00:04:12,223 - src.agents.advanced_hazard_agent - INFO - Success Rate: 0.00%
+2025-09-10 00:04:12,223 - src.agents.advanced_hazard_agent - INFO - Avg Computation Time: 0.000s
+2025-09-10 00:04:12,224 - src.agents.advanced_hazard_agent - INFO - P95 Computation Time: 0.000s
+2025-09-10 00:04:12,224 - src.agents.advanced_hazard_agent - INFO - Avg Safety Score: 0.000
+2025-09-10 00:04:12,224 - src.agents.advanced_hazard_agent - INFO - Detailed metrics saved to: results/metrics/enhanced_simulation_20250910_000412.json

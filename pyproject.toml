@@ -24,6 +24,7 @@ dependencies = [
     # Optional ML dependencies
     "transformers>=4.21.0",
     "torch>=2.0.0",
+    "folium>=0.20.0",
 ]
 
 [build-system]

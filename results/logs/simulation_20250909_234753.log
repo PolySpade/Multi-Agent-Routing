@@ -1,0 +1,141 @@
+2025-09-09 23:47:53,301 - src.environment.dynamic_graph - INFO - Loading road network for Marikina, Philippines
+2025-09-09 23:47:55,468 - src.environment.dynamic_graph - INFO - Loaded 2491 nodes and 6644 edges
+2025-09-09 23:48:02,899 - src.agents.advanced_hazard_agent - INFO - AdvancedHazardAgent-1: ML models initialized successfully
+2025-09-09 23:48:02,910 - src.agents.advanced_hazard_agent - INFO - Starting Enhanced MAS-FRO simulation...
+2025-09-09 23:48:02,910 - src.agents.advanced_hazard_agent - INFO - Running enhanced simulation for 3600 seconds...
+2025-09-09 23:48:02,911 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:48:02,911 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-09 23:48:02,913 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,914 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,915 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-09 23:48:02,915 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,916 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,917 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-09 23:48:02,918 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,918 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:48:02,919 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,920 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-09 23:48:02,921 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757432882_1
+2025-09-09 23:48:02,921 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,921 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757432882_1
+2025-09-09 23:48:02,922 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,923 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-09 23:48:02,924 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,925 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,925 - src.agents.advanced_hazard_agent - INFO - Performance Stats: {'total_requests': 0, 'successful_routes': 0, 'success_rate': 0.0, 'avg_computation_time': 0.0, 'avg_route_distance': 0.0, 'avg_safety_score': 0.0}
+2025-09-09 23:48:02,925 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:48:02,925 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-09 23:48:02,926 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,928 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,928 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-09 23:48:02,929 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,929 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757432882_2
+2025-09-09 23:48:02,930 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757432882_2
+2025-09-09 23:48:02,930 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,931 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-09 23:48:02,932 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,932 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:48:02,933 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,933 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 2 crowdsourced reports
+2025-09-09 23:48:02,934 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,935 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,935 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757432882_3
+2025-09-09 23:48:02,935 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757432882_3
+2025-09-09 23:48:02,936 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-09 23:48:02,937 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,937 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,939 - src.agents.advanced_hazard_agent - INFO - Performance Stats: {'total_requests': 0, 'successful_routes': 0, 'success_rate': 0.0, 'avg_computation_time': 0.0, 'avg_route_distance': 0.0, 'avg_safety_score': 0.0}
+2025-09-09 23:48:02,939 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:48:02,939 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-09 23:48:02,940 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,941 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,941 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 4 crowdsourced reports
+2025-09-09 23:48:02,942 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,943 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,944 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-09 23:48:02,944 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,945 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757432882_4
+2025-09-09 23:48:02,945 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757432882_4
+2025-09-09 23:48:02,945 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:48:02,946 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,946 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-09 23:48:02,947 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,948 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,948 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-09 23:48:02,949 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,950 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,951 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757432882_5
+2025-09-09 23:48:02,951 - src.agents.advanced_hazard_agent - INFO - Performance Stats: {'total_requests': 0, 'successful_routes': 0, 'success_rate': 0.0, 'avg_computation_time': 0.0, 'avg_route_distance': 0.0, 'avg_safety_score': 0.0}
+2025-09-09 23:48:02,951 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:48:02,951 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 2 crowdsourced reports
+2025-09-09 23:48:02,952 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757432882_5
+2025-09-09 23:48:02,952 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,953 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,954 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 2 crowdsourced reports
+2025-09-09 23:48:02,955 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,956 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,956 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 4 crowdsourced reports
+2025-09-09 23:48:02,958 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757432882_6
+2025-09-09 23:48:02,958 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757432882_6
+2025-09-09 23:48:02,958 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,959 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:48:02,960 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,960 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-09 23:48:02,961 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,962 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,963 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-09 23:48:02,964 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,964 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757432882_7
+2025-09-09 23:48:02,964 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757432882_7
+2025-09-09 23:48:02,965 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,965 - src.agents.advanced_hazard_agent - INFO - Performance Stats: {'total_requests': 0, 'successful_routes': 0, 'success_rate': 0.0, 'avg_computation_time': 0.0, 'avg_route_distance': 0.0, 'avg_safety_score': 0.0}
+2025-09-09 23:48:02,966 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:48:02,966 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 2 crowdsourced reports
+2025-09-09 23:48:02,967 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,967 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,968 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-09 23:48:02,969 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,970 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,970 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-09 23:48:02,971 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,971 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:48:02,972 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757432882_8
+2025-09-09 23:48:02,973 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757432882_8
+2025-09-09 23:48:02,973 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,974 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 2 crowdsourced reports
+2025-09-09 23:48:02,974 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,975 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,976 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-09 23:48:02,976 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,977 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,978 - src.agents.advanced_hazard_agent - INFO - Performance Stats: {'total_requests': 0, 'successful_routes': 0, 'success_rate': 0.0, 'avg_computation_time': 0.0, 'avg_route_distance': 0.0, 'avg_safety_score': 0.0}
+2025-09-09 23:48:02,978 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:48:02,978 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-09 23:48:02,979 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,979 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757432882_9
+2025-09-09 23:48:02,980 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757432882_9
+2025-09-09 23:48:02,980 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,981 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-09 23:48:02,982 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,982 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,983 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757432882_10
+2025-09-09 23:48:02,983 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 4 crowdsourced reports
+2025-09-09 23:48:02,983 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757432882_10
+2025-09-09 23:48:02,984 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,985 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:48:02,985 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,986 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-09 23:48:02,987 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,988 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,988 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 4 crowdsourced reports
+2025-09-09 23:48:02,989 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,990 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757432882_11
+2025-09-09 23:48:02,990 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'RandomForestRegressor' object has no attribute 'estimators_'
+2025-09-09 23:48:02,990 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757432882_11
+2025-09-09 23:48:02,991 - src.agents.advanced_hazard_agent - INFO - === ENHANCED MAS-FRO PERFORMANCE REPORT ===
+2025-09-09 23:48:02,991 - src.agents.advanced_hazard_agent - INFO - Total Requests: 0
+2025-09-09 23:48:02,991 - src.agents.advanced_hazard_agent - INFO - Success Rate: 0.00%
+2025-09-09 23:48:02,991 - src.agents.advanced_hazard_agent - INFO - Avg Computation Time: 0.000s
+2025-09-09 23:48:02,991 - src.agents.advanced_hazard_agent - INFO - P95 Computation Time: 0.000s
+2025-09-09 23:48:02,991 - src.agents.advanced_hazard_agent - INFO - Avg Safety Score: 0.000
+2025-09-09 23:48:02,992 - src.agents.advanced_hazard_agent - INFO - Detailed metrics saved to: results/metrics/enhanced_simulation_20250909_234802.json

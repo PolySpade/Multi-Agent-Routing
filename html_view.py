@@ -6,6 +6,7 @@ import folium
 from folium import plugins
 import json
 import os
+import sys
 from datetime import datetime
 import threading
 import time
@@ -15,6 +16,22 @@ import plotly
 import plotly.graph_objs as go
 import plotly.express as px
 from werkzeug.serving import make_server
+import networkx as nx
+import numpy as np
+import random
+import logging
+
+# Add src directory to Python path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+
+# Import MAS-FRO components
+from src.data.data_structures import RouteRequest
+from src.agents.advanced_hazard_agent import IntegratedMASFROSystem
+from src.utils.logging_config import setup_logging
+
+# Setup logging
+setup_logging(logging.INFO)
+logger = logging.getLogger(__name__)
 
 class MASFROWebInterface:
     """Web interface for monitoring and controlling MAS-FRO system"""

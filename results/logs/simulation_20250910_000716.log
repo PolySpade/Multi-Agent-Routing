@@ -1,0 +1,143 @@
+2025-09-10 00:07:16,368 - src.environment.dynamic_graph - INFO - Loading road network for Marikina, Philippines
+2025-09-10 00:07:18,656 - src.environment.dynamic_graph - INFO - Loaded 2491 nodes and 6644 edges
+2025-09-10 00:07:20,589 - src.agents.advanced_hazard_agent - INFO - AdvancedHazardAgent-1: ML models initialized successfully
+2025-09-10 00:07:20,653 - src.agents.advanced_hazard_agent - INFO - AdvancedHazardAgent-1: Successfully initialized ML models with bootstrap data (50 samples, test prediction: 0.897)
+2025-09-10 00:07:20,662 - src.agents.advanced_hazard_agent - INFO - Starting Enhanced MAS-FRO simulation...
+2025-09-10 00:07:20,663 - src.agents.advanced_hazard_agent - INFO - Running enhanced simulation for 3600 seconds...
+2025-09-10 00:07:20,664 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-10 00:07:20,664 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-10 00:07:20,666 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,667 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,668 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-10 00:07:20,668 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,669 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,669 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-10 00:07:20,670 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,671 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-10 00:07:20,672 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,672 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757434040_1
+2025-09-10 00:07:20,673 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757434040_1
+2025-09-10 00:07:20,674 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 2 crowdsourced reports
+2025-09-10 00:07:20,675 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,676 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,676 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-10 00:07:20,678 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,679 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,679 - src.agents.advanced_hazard_agent - INFO - Performance Stats: {'total_requests': 0, 'successful_routes': 0, 'success_rate': 0.0, 'avg_computation_time': 0.0, 'avg_route_distance': 0.0, 'avg_safety_score': 0.0}
+2025-09-10 00:07:20,679 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-10 00:07:20,679 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-10 00:07:20,680 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,681 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757434040_2
+2025-09-10 00:07:20,681 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757434040_2
+2025-09-10 00:07:20,682 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,682 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 2 crowdsourced reports
+2025-09-10 00:07:20,683 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,684 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,685 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-10 00:07:20,686 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,687 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-10 00:07:20,687 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,688 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 2 crowdsourced reports
+2025-09-10 00:07:20,689 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,690 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,690 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757434040_3
+2025-09-10 00:07:20,690 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757434040_3
+2025-09-10 00:07:20,691 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-10 00:07:20,692 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,693 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,694 - src.agents.advanced_hazard_agent - INFO - Performance Stats: {'total_requests': 0, 'successful_routes': 0, 'success_rate': 0.0, 'avg_computation_time': 0.0, 'avg_route_distance': 0.0, 'avg_safety_score': 0.0}
+2025-09-10 00:07:20,694 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-10 00:07:20,694 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-10 00:07:20,695 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,696 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,697 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-10 00:07:20,697 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757434040_4
+2025-09-10 00:07:20,698 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757434040_4
+2025-09-10 00:07:20,698 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,699 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,700 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-10 00:07:20,702 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,703 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-10 00:07:20,704 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,705 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-10 00:07:20,706 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,707 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757434040_5
+2025-09-10 00:07:20,707 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757434040_5
+2025-09-10 00:07:20,708 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,709 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-10 00:07:20,710 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,711 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,711 - src.agents.advanced_hazard_agent - INFO - Performance Stats: {'total_requests': 0, 'successful_routes': 0, 'success_rate': 0.0, 'avg_computation_time': 0.0, 'avg_route_distance': 0.0, 'avg_safety_score': 0.0}
+2025-09-10 00:07:20,711 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-10 00:07:20,711 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 4 crowdsourced reports
+2025-09-10 00:07:20,713 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,714 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,714 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757434040_6
+2025-09-10 00:07:20,715 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757434040_6
+2025-09-10 00:07:20,715 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-10 00:07:20,716 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,717 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,717 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-10 00:07:20,718 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,719 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-10 00:07:20,719 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,721 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 4 crowdsourced reports
+2025-09-10 00:07:20,722 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,723 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,723 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 4 crowdsourced reports
+2025-09-10 00:07:20,724 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,724 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757434040_7
+2025-09-10 00:07:20,724 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757434040_7
+2025-09-10 00:07:20,725 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,726 - src.agents.advanced_hazard_agent - INFO - Performance Stats: {'total_requests': 0, 'successful_routes': 0, 'success_rate': 0.0, 'avg_computation_time': 0.0, 'avg_route_distance': 0.0, 'avg_safety_score': 0.0}
+2025-09-10 00:07:20,726 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-10 00:07:20,726 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-10 00:07:20,727 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,728 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,729 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-10 00:07:20,729 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,731 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,732 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-10 00:07:20,732 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757434040_8
+2025-09-10 00:07:20,733 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,733 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757434040_8
+2025-09-10 00:07:20,734 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-10 00:07:20,734 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,735 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 2 crowdsourced reports
+2025-09-10 00:07:20,736 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,737 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,738 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-10 00:07:20,738 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,739 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757434040_9
+2025-09-10 00:07:20,740 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757434040_9
+2025-09-10 00:07:20,740 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,741 - src.agents.advanced_hazard_agent - INFO - Performance Stats: {'total_requests': 0, 'successful_routes': 0, 'success_rate': 0.0, 'avg_computation_time': 0.0, 'avg_route_distance': 0.0, 'avg_safety_score': 0.0}
+2025-09-10 00:07:20,741 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-10 00:07:20,741 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-10 00:07:20,742 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,743 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,743 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 2 crowdsourced reports
+2025-09-10 00:07:20,744 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,745 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,746 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-10 00:07:20,746 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757434040_10
+2025-09-10 00:07:20,746 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757434040_10
+2025-09-10 00:07:20,747 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,748 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-10 00:07:20,749 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,751 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-10 00:07:20,752 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,753 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,753 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 4 crowdsourced reports
+2025-09-10 00:07:20,754 - src.agents.advanced_hazard_agent - INFO - Generated user request: REQ_1757434040_11
+2025-09-10 00:07:20,754 - src.agents.advanced_hazard_agent - INFO - SmartEvacuationManager-1: Processing route request REQ_1757434040_11
+2025-09-10 00:07:20,755 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,756 - src.agents.advanced_hazard_agent - ERROR - AdvancedHazardAgent-1 error: 'AdvancedHazardAgent' object has no attribute '_calculate_flood_risk'
+2025-09-10 00:07:20,756 - src.agents.advanced_hazard_agent - INFO - === ENHANCED MAS-FRO PERFORMANCE REPORT ===
+2025-09-10 00:07:20,757 - src.agents.advanced_hazard_agent - INFO - Total Requests: 0
+2025-09-10 00:07:20,757 - src.agents.advanced_hazard_agent - INFO - Success Rate: 0.00%
+2025-09-10 00:07:20,757 - src.agents.advanced_hazard_agent - INFO - Avg Computation Time: 0.000s
+2025-09-10 00:07:20,757 - src.agents.advanced_hazard_agent - INFO - P95 Computation Time: 0.000s
+2025-09-10 00:07:20,757 - src.agents.advanced_hazard_agent - INFO - Avg Safety Score: 0.000
+2025-09-10 00:07:20,758 - src.agents.advanced_hazard_agent - INFO - Detailed metrics saved to: results/metrics/enhanced_simulation_20250910_000720.json
+2025-09-10 00:07:21,518 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 00:07:21] "GET / HTTP/1.1" 200 -
