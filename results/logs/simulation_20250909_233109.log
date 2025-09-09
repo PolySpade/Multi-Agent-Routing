@@ -1,0 +1,141 @@
+2025-09-09 23:31:09,737 - src.environment.dynamic_graph - INFO - Loading road network for Marikina, Philippines
+2025-09-09 23:31:11,879 - src.environment.dynamic_graph - INFO - Loaded 2491 nodes and 6644 edges
+2025-09-09 23:31:13,501 - src.simulation.mas_controller - INFO - Starting MAS-FRO simulation...
+2025-09-09 23:31:13,501 - src.simulation.mas_controller - INFO - Running simulation for 3600 seconds...
+2025-09-09 23:31:13,502 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:31:13,502 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-09 23:31:13,504 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,522 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,528 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-09 23:31:13,528 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,538 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-09 23:31:13,539 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,542 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:31:13,543 - src.simulation.mas_controller - INFO - Simulated user request: REQ_1757431873
+2025-09-09 23:31:13,543 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Processing route request REQ_1757431873
+2025-09-09 23:31:13,577 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Route delivered to user user_74
+2025-09-09 23:31:13,577 - src.agents.evacuation_manager_agent - INFO - Safety Score: 1.00
+2025-09-09 23:31:13,577 - src.agents.evacuation_manager_agent - INFO - Estimated Time: 401 seconds
+2025-09-09 23:31:13,577 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,585 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-09 23:31:13,586 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,596 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-09 23:31:13,597 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,603 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:31:13,603 - src.simulation.mas_controller - INFO - Simulated user request: REQ_1757431873
+2025-09-09 23:31:13,603 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-09 23:31:13,604 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Processing route request REQ_1757431873
+2025-09-09 23:31:13,709 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Route delivered to user user_69
+2025-09-09 23:31:13,709 - src.agents.evacuation_manager_agent - INFO - Safety Score: 1.00
+2025-09-09 23:31:13,710 - src.agents.evacuation_manager_agent - INFO - Estimated Time: 382 seconds
+2025-09-09 23:31:13,710 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,717 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,723 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-09 23:31:13,724 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,727 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-09 23:31:13,728 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,733 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:31:13,733 - src.simulation.mas_controller - INFO - Simulated user request: REQ_1757431873
+2025-09-09 23:31:13,734 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Processing route request REQ_1757431873
+2025-09-09 23:31:13,765 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Route delivered to user user_77
+2025-09-09 23:31:13,765 - src.agents.evacuation_manager_agent - INFO - Safety Score: 0.98
+2025-09-09 23:31:13,765 - src.agents.evacuation_manager_agent - INFO - Estimated Time: 451 seconds
+2025-09-09 23:31:13,765 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,772 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-09 23:31:13,773 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,783 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-09 23:31:13,784 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,790 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:31:13,790 - src.simulation.mas_controller - INFO - Simulated user request: REQ_1757431873
+2025-09-09 23:31:13,790 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-09 23:31:13,791 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Processing route request REQ_1757431873
+2025-09-09 23:31:13,819 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Route delivered to user user_20
+2025-09-09 23:31:13,819 - src.agents.evacuation_manager_agent - INFO - Safety Score: 1.00
+2025-09-09 23:31:13,819 - src.agents.evacuation_manager_agent - INFO - Estimated Time: 273 seconds
+2025-09-09 23:31:13,820 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,826 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,829 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-09 23:31:13,829 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,836 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-09 23:31:13,837 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,849 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:31:13,849 - src.simulation.mas_controller - INFO - Simulated user request: REQ_1757431873
+2025-09-09 23:31:13,849 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Processing route request REQ_1757431873
+2025-09-09 23:31:13,889 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Route delivered to user user_4
+2025-09-09 23:31:13,890 - src.agents.evacuation_manager_agent - INFO - Safety Score: 0.99
+2025-09-09 23:31:13,890 - src.agents.evacuation_manager_agent - INFO - Estimated Time: 360 seconds
+2025-09-09 23:31:13,890 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,897 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 4 crowdsourced reports
+2025-09-09 23:31:13,898 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,906 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-09 23:31:13,907 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:13,910 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:31:13,910 - src.simulation.mas_controller - INFO - Simulated user request: REQ_1757431873
+2025-09-09 23:31:13,910 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-09 23:31:13,911 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Processing route request REQ_1757431873
+2025-09-09 23:31:14,002 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Route delivered to user user_44
+2025-09-09 23:31:14,002 - src.agents.evacuation_manager_agent - INFO - Safety Score: 1.00
+2025-09-09 23:31:14,002 - src.agents.evacuation_manager_agent - INFO - Estimated Time: 479 seconds
+2025-09-09 23:31:14,002 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,010 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,020 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-09 23:31:14,021 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,024 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-09 23:31:14,024 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,030 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:31:14,030 - src.simulation.mas_controller - INFO - Simulated user request: REQ_1757431874
+2025-09-09 23:31:14,031 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Processing route request REQ_1757431874
+2025-09-09 23:31:14,059 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Route delivered to user user_44
+2025-09-09 23:31:14,059 - src.agents.evacuation_manager_agent - INFO - Safety Score: 0.97
+2025-09-09 23:31:14,059 - src.agents.evacuation_manager_agent - INFO - Estimated Time: 256 seconds
+2025-09-09 23:31:14,060 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,066 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 4 crowdsourced reports
+2025-09-09 23:31:14,067 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,076 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-09 23:31:14,086 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:31:14,087 - src.simulation.mas_controller - INFO - Simulated user request: REQ_1757431874
+2025-09-09 23:31:14,087 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 1 crowdsourced reports
+2025-09-09 23:31:14,087 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Processing route request REQ_1757431874
+2025-09-09 23:31:14,118 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Route delivered to user user_26
+2025-09-09 23:31:14,118 - src.agents.evacuation_manager_agent - INFO - Safety Score: 1.00
+2025-09-09 23:31:14,118 - src.agents.evacuation_manager_agent - INFO - Estimated Time: 295 seconds
+2025-09-09 23:31:14,119 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,126 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,128 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-09 23:31:14,130 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-09 23:31:14,131 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:31:14,132 - src.simulation.mas_controller - INFO - Simulated user request: REQ_1757431874
+2025-09-09 23:31:14,132 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Processing route request REQ_1757431874
+2025-09-09 23:31:14,215 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Route delivered to user user_1
+2025-09-09 23:31:14,215 - src.agents.evacuation_manager_agent - INFO - Safety Score: 1.00
+2025-09-09 23:31:14,215 - src.agents.evacuation_manager_agent - INFO - Estimated Time: 292 seconds
+2025-09-09 23:31:14,216 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,222 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 2 crowdsourced reports
+2025-09-09 23:31:14,223 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,228 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 5 crowdsourced reports
+2025-09-09 23:31:14,228 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,239 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:31:14,240 - src.simulation.mas_controller - INFO - Simulated user request: REQ_1757431874
+2025-09-09 23:31:14,240 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 2 crowdsourced reports
+2025-09-09 23:31:14,240 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Processing route request REQ_1757431874
+2025-09-09 23:31:14,269 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Route delivered to user user_98
+2025-09-09 23:31:14,269 - src.agents.evacuation_manager_agent - INFO - Safety Score: 0.98
+2025-09-09 23:31:14,269 - src.agents.evacuation_manager_agent - INFO - Estimated Time: 529 seconds
+2025-09-09 23:31:14,270 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,277 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,281 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 4 crowdsourced reports
+2025-09-09 23:31:14,282 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,290 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 4 crowdsourced reports
+2025-09-09 23:31:14,291 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,298 - src.agents.flood_agent - INFO - FloodAgent-1: Collected flood data from 3 stations
+2025-09-09 23:31:14,298 - src.simulation.mas_controller - INFO - Simulated user request: REQ_1757431874
+2025-09-09 23:31:14,299 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Processing route request REQ_1757431874
+2025-09-09 23:31:14,330 - src.agents.evacuation_manager_agent - INFO - EvacuationManager-1: Route delivered to user user_74
+2025-09-09 23:31:14,330 - src.agents.evacuation_manager_agent - INFO - Safety Score: 1.00
+2025-09-09 23:31:14,330 - src.agents.evacuation_manager_agent - INFO - Estimated Time: 422 seconds
+2025-09-09 23:31:14,331 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,339 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 3 crowdsourced reports
+2025-09-09 23:31:14,340 - src.agents.hazard_agent - INFO - HazardAgent-1: Updating risk assessments
+2025-09-09 23:31:14,346 - src.agents.scout_agent - INFO - ScoutAgent-1: Collected 0 crowdsourced reports
+2025-09-09 23:31:14,349 - src.simulation.mas_controller - INFO - Simulation completed
+2025-09-09 23:31:14,349 - src.main - INFO - Cleaning up...

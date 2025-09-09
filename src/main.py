@@ -1,33 +1,32 @@
-from helpers.utils import load_gis_data
-from pathlib import Path 
-import matplotlib.pyplot as plt
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-main_dir = Path(__file__).parent 
+from src.simulation.mas_controller import MASFROController
+from src.utils.logging_config import setup_logging
+import logging
 
-if __name__ == '__main__':
-
-
-
-
-
-    # shapefile_path = main_dir / 'data' / 'marikina_boundary_shapefiles' / 'marikina_boundary_shapefile.shp'
-    # # print(f"Constructed path: {shapefile_path}")
-    # # print(f"Does the file exist? {shapefile_path.exists()}")
-
-    # my_geodataframe = load_gis_data(shapefile_path)
+def main():
+    """Main entry point for MAS-FRO simulation"""
+    # Setup logging
+    setup_logging(logging.INFO)
+    logger = logging.getLogger(__name__)
     
+    try:
+        # Create and run simulation
+        controller = MASFROController()
+        
+        # Run for 1 hour simulation time
+        controller.run_simulation(duration=3600)
+        
+    except KeyboardInterrupt:
+        logger.info("Simulation interrupted by user")
+    except Exception as e:
+        logger.error(f"Simulation error: {e}")
+        import traceback
+        traceback.print_exc()
+    finally:
+        logger.info("Cleaning up...")
 
-    # # You can now work with the loaded data
-    # if my_geodataframe is not None:
-    #     print("--- First 5 Rows (shows column names) ---")
-    #     print(my_geodataframe.head())
-    #     print("Generating Plot")
-    #     fig, ax = plt.subplots(1,1, figsize=(10,10))
-    #     my_geodataframe.plot(ax=ax, color='lightblue', edgecolor='black')
-    #     ax.set_title("Map of Marikina Boundary", fontsize=16)
-    #     ax.set_xlabel("Longitude")
-    #     ax.set_ylabel("Latitude")
-    #     plt.tight_layout()
-    #     plt.show()
-
-    
+if __name__ == "__main__":
+    main()
