@@ -1,62 +1,75 @@
-# Copy the FloodAgent class from the first artifact:
 from .base_agent import BaseAgent
 from ..data.data_structures import FloodData
+from ..utils.weather_client import WeatherClient  # <-- IMPORT our new client
 import logging
-import random
 from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
 class FloodAgent(BaseAgent):
-    """Agent responsible for collecting official flood data"""
-    
+    """Agent responsible for collecting real-time flood data using a weather client."""
+
+    def __init__(self, agent_id, env, input_queue, output_queue):
+        # We now accept input_queue and pass it to the parent class
+        super().__init__(agent_id, env, input_queue, output_queue)
+        try:
+            self.weather_client = WeatherClient()
+        except ValueError as e:
+            logger.error(f"Could not initialize FloodAgent: {e}")
+            self.weather_client = None # Agent will be disabled
+
     def run(self):
-        """Simulate collecting flood data every 5 minutes"""
+        """Fetches real-time weather data every 5 minutes."""
+        if not self.weather_client:
+            logger.warning(f"{self.agent_id} is disabled because the WeatherClient could not be initialized.")
+            return # Stop the run method if client is not available
+
         while self.running:
             try:
-                # Simulate data collection from PAGASA sensors
-                flood_data = self._simulate_flood_data()
-                
-                # Send data to Hazard Agent
-                message = {
-                    'type': 'flood_data',
-                    'data': flood_data,
-                    'sender': self.agent_id,
-                    'timestamp': self.env.now
-                }
-                if self.output_queue:
-                    self.output_queue.put(message)
-                
-                logger.info(f"{self.agent_id}: Collected flood data from {len(flood_data)} stations")
-                
-                # Wait 5 minutes (300 seconds in simulation)
+                # The agent's logic is now much cleaner
+                flood_data = self._fetch_and_process_data()
+
+                if flood_data:
+                    message = {
+                        'type': 'flood_data',
+                        'data': flood_data,
+                        'sender': self.agent_id,
+                        'timestamp': self.env.now
+                    }
+                    if self.output_queue:
+                        self.output_queue.put(message)
+                    logger.info(f"{self.agent_id}: Collected and sent real-time weather data.")
+                else:
+                    logger.info(f"{self.agent_id}: No new weather data fetched.")
+
                 yield self.env.timeout(300)
-                
+
             except Exception as e:
-                logger.error(f"{self.agent_id} error: {e}")
-                yield self.env.timeout(60)  # Wait 1 minute before retry
-    
-    def _simulate_flood_data(self):
-        """Simulate flood data from various monitoring stations"""
-        stations = [
-            {"id": "MAR001", "location": (14.6507, 121.1029)},  # Marikina River
-            {"id": "MAR002", "location": (14.6350, 121.1120)},
-            {"id": "MAR003", "location": (14.6180, 121.1200)},
-        ]
+                logger.error(f"{self.agent_id} experienced an error: {e}")
+                yield self.env.timeout(60)
+
+    def _fetch_and_process_data(self):
+        """
+        Uses the WeatherClient to get data and maps it to the FloodData structure.
+        """
+        # Define the location to monitor
+        lat, lon = 14.6507, 121.1029
         
-        flood_data = []
-        for station in stations:
-            # Simulate varying flood conditions
-            base_level = random.uniform(2.0, 15.0)  # meters
-            rainfall = random.uniform(0, 50)  # mm/hr
-            
-            data = FloodData(
-                station_id=station["id"],
-                water_level=base_level,
-                rainfall_intensity=rainfall,
-                location=station["location"],
-                timestamp=datetime.now()
-            )
-            flood_data.append(data)
+        current_weather = self.weather_client.get_weather(lat, lon)
         
-        return flood_data
+        if not current_weather:
+            return []
+
+        # Safely extract rainfall, defaulting to 0.0 if not present
+        rainfall = current_weather.get('rain', {}).get('1h', 0.0)
+        
+        # Map to our internal data structure
+        flood_instance = FloodData(
+            station_id="MARIKINA_CENTER",
+            water_level=-1.0,  # Placeholder, as this doesn't come from the weather API
+            rainfall_intensity=float(rainfall),
+            location=(lat, lon),
+            timestamp=datetime.fromtimestamp(current_weather.get('dt', datetime.now().timestamp()))
+        )
+        
+        return [flood_instance]
