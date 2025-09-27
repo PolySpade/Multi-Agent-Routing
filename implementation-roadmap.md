@@ -43,7 +43,7 @@ import json
 
 class PAGASAClient:
     """Client for PAGASA weather API"""
-    
+    #not real url - so far
     BASE_URL = "https://api.pagasa.gov.ph/v1"
     
     def __init__(self, api_key: str):
