@@ -736,16 +736,48 @@ spec:
 4. Add input validation for all agent communications
 5. Refactor hardcoded values to configuration
 
-### Dependencies to Add
+### Dependencies (Updated)
 ```txt
-# Add to requirements.txt
+# Core dependencies (already in requirements.txt)
+simpy>=4.1.1
+geopandas>=1.0.1
+networkx>=3.4.2
+osmnx>=2.0.5
+pandas>=2.2.3
+numpy>=1.24.0
+
+# New dependencies (added October 2025)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.0.0
+transformers>=4.30.0
+torch>=2.0.0
+
+# Future dependencies (for production)
 redis>=4.5.0
-fastapi>=0.100.0
-uvicorn>=0.23.0
 celery>=5.3.0
 rabbitmq>=0.10.0
 prometheus-client>=0.17.0
 ```
+
+### Real Data Integration (NEW - October 2025)
+
+**Status:** ✅ IMPLEMENTED
+
+The system now uses authentic data from the `data/` folder instead of mock/sample data:
+
+- **Road Network:** Loaded from `road_networks_marikina.gpkg` or `road_networks.geojson`
+- **Evacuation Centers:** Loaded from `evacuation_centers.csv`
+- **Elevation Data:** Extracted from network geometry or estimated from topography
+- **Flood Risk Calculation:** Based on real elevation data using formula:
+  ```
+  flood_risk = max(0, (flood_threshold - avg_elevation) / flood_threshold)
+  ```
+
+**Key Files:**
+- `src/data/real_data_loader.py` - Data integration layer
+- `demonstrate_real_data.py` - Complete workflow demonstration
+- `REAL_DATA_USAGE_GUIDE.md` - Comprehensive usage documentation
 
 ---
 

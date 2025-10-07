@@ -5,8 +5,8 @@ This repository contains the **Multi-Agent System for Flood Route Optimization (
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.10+
-- Internet connection (for downloading OpenStreetMap data)
+- **Python 3.9+** (tested on 3.11)
+- Internet connection (optional - for downloading additional data)
 
 ### Installation
 
@@ -21,11 +21,39 @@ This repository contains the **Multi-Agent System for Flood Route Optimization (
    # Using pip
    pip install -r requirements.txt
 
+   # Install API dependencies (for new features)
+   pip install fastapi uvicorn
+
    # Or using uv (recommended)
    uv sync
    ```
 
-### Run the RoutingAgent Demonstration
+### 🆕 NEW: Real Data Integration (October 2025)
+
+**Use authentic Marikina network data instead of mock data:**
+
+```bash
+# Complete workflow with real data (recommended!)
+python demonstrate_real_data.py
+```
+
+This will:
+- ✅ Load 2500+ real road segments from Marikina network
+- ✅ Load 6 authentic evacuation centers
+- ✅ Extract/calculate elevation data (10-50m range)
+- ✅ Calculate flood risks using real topography
+- ✅ Generate route using actual network
+- ✅ Create interactive visualizations
+- ✅ Export results to CSV/JSON/HTML
+
+**Output files:**
+- `test_visualization.html` - Interactive map (open in browser!)
+- `data/adjacency_matrix_water_*.csv` - Flood risk at different water levels
+- `data/nodes.csv` - Node elevations from real network
+
+📖 **See [QUICK_START_REAL_DATA.md](QUICK_START_REAL_DATA.md) for 5-minute guide**
+
+### Run the Original RoutingAgent Demonstration
 
 ```bash
 python demonstrate_routing_agent.py

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAS-FRO Route Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .visualization {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .stat-card {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #800080;
+        }
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+        }
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MAS-FRO Route Visualization</h1>
+        <div class="visualization">
+            <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#800080" />
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="#F0F0F0"/>
+  <g id="edges">
+    <line x1="50.0" y1="550.0" x2="225.0000000000622" y2="425.0" stroke="#00FF00" stroke-width="2" opacity="1.0"/>
+    <line x1="50.0" y1="550.0" x2="400.0000000001244" y2="300.0" stroke="#FFFF00" stroke-width="2" opacity="0.3"/>
+    <line x1="225.0000000000622" y1="425.0" x2="400.0000000001244" y2="300.0" stroke="#FFA500" stroke-width="2" opacity="1.0"/>
+    <line x1="225.0000000000622" y1="425.0" x2="574.9999999999378" y2="175.0" stroke="#FFA500" stroke-width="2" opacity="0.3"/>
+    <line x1="400.0000000001244" y1="300.0" x2="574.9999999999378" y2="175.0" stroke="#FF0000" stroke-width="2" opacity="1.0"/>
+    <line x1="574.9999999999378" y1="175.0" x2="750.0" y2="50.0" stroke="#FFFF00" stroke-width="2" opacity="1.0"/>
+  </g>
+  <g id="route">
+    <polyline points="50.0,550.0 225.0000000000622,425.0 400.0000000001244,300.0 574.9999999999378,175.0 750.0,50.0" fill="none" stroke="#800080" stroke-width="4" marker-end="url(#arrowhead)"/>
+  </g>
+  <g id="nodes">
+    <circle cx="50.0" cy="550.0" r="8" fill="#00FF00" stroke="black" stroke-width="1"/>
+    <text x="50.0" y="540.0" text-anchor="middle" font-size="12" font-weight="bold">START</text>
+    <circle cx="225.0000000000622" cy="425.0" r="6" fill="#800080" stroke="black" stroke-width="1"/>
+    <circle cx="400.0000000001244" cy="300.0" r="6" fill="#800080" stroke="black" stroke-width="1"/>
+    <circle cx="574.9999999999378" cy="175.0" r="6" fill="#800080" stroke="black" stroke-width="1"/>
+    <circle cx="750.0" cy="50.0" r="8" fill="#FFD700" stroke="black" stroke-width="1"/>
+    <text x="750.0" y="40.0" text-anchor="middle" font-size="12" font-weight="bold">EVACUATION</text>
+  </g>
+  <g id="legend" transform="translate(10, 20)">
+    <rect x="0" y="0" width="150" height="120" fill="white" stroke="black" opacity="0.9"/>
+    <text x="75" y="15" text-anchor="middle" font-weight="bold">Risk Levels</text>
+    <rect x="10" y="30" width="15" height="10" fill="#00FF00"/>
+    <text x="30" y="38" font-size="12">Safe</text>
+    <rect x="10" y="50" width="15" height="10" fill="#FFFF00"/>
+    <text x="30" y="58" font-size="12">Low Risk</text>
+    <rect x="10" y="70" width="15" height="10" fill="#FFA500"/>
+    <text x="30" y="78" font-size="12">Medium Risk</text>
+    <rect x="10" y="90" width="15" height="10" fill="#FF0000"/>
+    <text x="30" y="98" font-size="12">High Risk</text>
+    <rect x="10" y="110" width="15" height="10" fill="#800080"/>
+    <text x="30" y="118" font-size="12">Optimal Route</text>
+  </g>
+</svg>
+        </div>
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-label">Route Length</div>
+                <div class="stat-value">4 segments</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Risk Level</div>
+                <div class="stat-value">45.00%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Status</div>
+                <div class="stat-value">Optimal</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
